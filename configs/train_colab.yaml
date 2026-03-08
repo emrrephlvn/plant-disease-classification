@@ -1,0 +1,23 @@
+seed: 42
+
+data:
+  # Colab notebook copies data from Drive to /content/plant_data for faster I/O
+  train_dir: /content/plant_data/train
+  val_dir: null
+  image_size: 224
+  val_split: 0.2
+  num_workers: 0
+
+training:
+  batch_size: 32
+  epochs: 15
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+model:
+  num_classes: null
+  freeze_backbone: false
+
+output:
+  dir: outputs
+  checkpoint_name: best_model_colab.pt

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "outputs/best_model_colab.pt",
+  "overall_accuracy": 0.999,
+  "num_validation_samples": 1013,
+  "class_names": [
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Tomato___healthy"
+  ],
+  "per_class_accuracy": {
+    "Pepper,_bell___healthy": 0.9966,
+    "Potato___Early_blight": 1.0,
+    "Potato___Late_blight": 1.0,
+    "Tomato___healthy": 1.0
+  },
+  "confusion_matrix_csv": "outputs/confusion_matrix.csv"
+}
